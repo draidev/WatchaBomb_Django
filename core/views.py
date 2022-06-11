@@ -6,7 +6,7 @@ from django.utils.decorators import method_decorator
 from .forms import profileForm
 from .models import Movie, Profile, WatchaMovie, WatchaUser, WatchaRating
 
-from .MH_Surprise import Surprise_KNNBaseline
+from .surprise import Surprise_KNNBaseline
 import pandas as pd
 
 # Create your views here.
